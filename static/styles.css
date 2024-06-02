@@ -1,0 +1,36 @@
+.DoggoImage {
+  position: absolute;
+  left: 50%;
+  top:50%;
+  height: 200px;
+  width :200px;
+}
+.numberContainer{
+  position: absolute;
+  left: 50%;
+  top:10%;
+  width:100px;
+  height: 100px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  color: white;
+  z-index: 33;
+
+
+}
+.number{
+  position: relative;
+  left: 27%;
+  top:0%;
+  font-size: 100px;
+  color: white;
+  z-index: 0;
+
+}
+.PasswordError{
+  position :absolute;
+  top:7%;
+  background-color :red;
+}
